@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Marginal">
+<meta name="theme-color" content="#10151C">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<title>Marginal — PDF Notes</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://accounts.google.com/gsi/client" onload="window.__gsiLoaded=true" onerror="window.__gsiFailed=true"></script>
+<style>
+  :root{
+    --ink-950:#10151C;
+    --ink-900:#171F28;
+    --ink-800:#202B36;
+    --ink-700:#2B3846;
+    --ink-line:#33414F;
+    --paper:#F3EEE2;
+    --paper-dim:#E7DFCC;
+    --paper-line:#D8CDB2;
+    --teal:#5AA69A;
+    --teal-dim:#3D7068;
+    --amber:#D6A24C;
+    --text-hi:#EDE9DE;
+    --text-mid:#9AA5B1;
+    --text-lo:#6B7684;
+    --ink-on-paper:#1E2530;
+    --serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;
+    --mono: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;margin:0;}
+  body{
+    font-family:var(--sans);
+    background:var(--ink-950);
+    color:var(--text-hi);
+    overflow:hidden;
+  }
+  [hidden]{display:none !important;}
+  input[type=file]{display:none;}
+
+  .screen{height:100vh;width:100vw;}
+
+  .btn-ghost{
+    font-family:var(--sans);
+    font-size:12.5px;
+    background:transparent;
+    border:1px solid var(--ink-line);
+    color:var(--text-mid);
+    border-radius:7px;
+    padding:8px 12px;
+    cursor:pointer;
+  }
+  .btn-ghost:hover{color:var(--text-hi);border-color:var(--text-mid);}
+  .btn-solid{
+    font-family:var(--sans);
+    font-size:12.5px;
+    font-weight:600;
+    background:var(--teal-dim);
+    border:1px solid var(--teal-dim);
+    color:#fff;
+    border-radius:7px;
+    padding:8px 12px;
+    cursor:pointer;
+  }
+  .btn-solid:hover{background:var(--teal);}
+
+  /* ---------- SIGN-IN SCREEN ---------- */
+  .screen-signin{
+    display:flex;align-items:center;justify-content:center;
+    padding:24px;
+  }
+  .signin-card{
+    max-width:380px;text-align:center;
+    display:flex;flex-direction:column;align-items:center;gap:14px;
+  }
+  .signin-card h1{
+    font-family:var(--serif);font-style:italic;font-weight:500;
+    font-size:32px;margin:0;color:var(--text-hi);
+  }
+  .signin-card p{
+    font-size:14px;color:var(--text-mid);line-height:1.6;margin:0;
+  }
+  .signin-btn{
+    display:flex;align-items:center;gap:10px;
+    background:#fff;color:#1f1f1f;border:none;border-radius:8px;
+    padding:12px 22px;font-family:var(--sans);font-size:14px;font-weight:600;
+    cursor:pointer;margin-top:8px;
+  }
+  .signin-btn:hover{background:#f2f2f2;}
+  .signin-btn:disabled{opacity:.5;cursor:default;}
+  .signin-btn svg{width:18px;height:18px;}
+  .signin-note{font-family:var(--mono);font-size:11px;color:var(--text-lo);min-height:14px;}
+  .signin-config-warning{
+    font-family:var(--mono);font-size:11px;color:var(--amber);
+    background:rgba(214,162,76,.1);border:1px solid var(--amber);
+    border-radius:8px;padding:12px 14px;line-height:1.6;text-align:left;
+  }
+
+  /* ---------- FOLDERS SCREEN ---------- */
+  .screen-folders{display:flex;flex-direction:column;background:var(--ink-950);}
+  .folders-header{
+    display:flex;align-items:center;justify-content:space-between;gap:14px;
+    padding:16px 24px;border-bottom:1px solid var(--ink-line);
+    flex-shrink:0;flex-wrap:wrap;
+  }
+  .breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:4px;font-family:var(--sans);font-size:14px;}
+  .breadcrumb-item{
+    background:transparent;border:none;color:var(--text-mid);
+    font-family:inherit;font-size:inherit;cursor:pointer;
+    padding:3px 5px;border-radius:5px;
+  }
+  .breadcrumb-item:hover{color:var(--text-hi);background:var(--ink-800);}
+  .breadcrumb-item.current{color:var(--text-hi);font-weight:600;cursor:default;}
+  .breadcrumb-item.current:hover{background:transparent;}
+  .breadcrumb-sep{color:var(--text-lo);}
+  .folders-actions{display:flex;gap:8px;flex-shrink:0;}
+
+  .folders-grid{
+    flex:1;overflow:auto;
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+    gap:16px;padding:24px;align-content:start;
+  }
+  .folder-card{
+    position:relative;
+    display:flex;flex-direction:column;align-items:center;gap:10px;
+    background:var(--ink-900);border:1px solid var(--ink-line);border-radius:12px;
+    padding:22px 14px;cursor:pointer;transition:border-color .15s, transform .15s;
+    text-align:center;
+  }
+  .folder-card:hover{border-color:var(--teal);transform:translateY(-2px);}
+  .folder-card-icon{width:34px;height:34px;color:var(--teal-dim);flex-shrink:0;}
+  .folder-card-label{font-size:12.5px;color:var(--text-hi);word-break:break-word;line-height:1.35;}
+  .folder-card-delete{
+    position:absolute;top:8px;right:8px;
+    width:24px;height:24px;border-radius:7px;
+    background:var(--ink-800);border:1px solid var(--ink-line);
+    color:var(--text-lo);display:flex;align-items:center;justify-content:center;
+    cursor:pointer;transition:all .15s;
+  }
+  .folder-card-delete svg{width:12px;height:12px;}
+  .folder-card-delete:hover{color:#E8896B;border-color:#E8896B;background:rgba(232,137,107,.1);}
+  .folders-empty, .folders-loading, .folders-error{
+    grid-column:1/-1;text-align:center;padding:50px 20px;
+    font-size:14px;color:var(--text-lo);line-height:1.6;
+  }
+  .folders-loading{font-family:var(--mono);font-size:12px;}
+  .folders-error{color:var(--amber);}
+
+  /* ---------- NAME MODAL ---------- */
+  .name-modal-overlay{
+    position:fixed;inset:0;background:rgba(10,13,17,.72);
+    display:flex;align-items:center;justify-content:center;z-index:200;padding:24px;
+  }
+  .name-modal{width:100%;max-width:320px;background:var(--ink-900);border:1px solid var(--ink-line);border-radius:12px;padding:20px;}
+  .name-modal h3{margin:0 0 12px;font-family:var(--serif);font-style:italic;font-weight:500;font-size:18px;color:var(--text-hi);}
+  .name-modal input{
+    width:100%;background:var(--ink-800);border:1px solid var(--ink-line);border-radius:8px;
+    color:var(--text-hi);font-family:var(--sans);font-size:14px;padding:10px 12px;
+    outline:none;box-sizing:border-box;
+  }
+  .name-modal input:focus{border-color:var(--teal-dim);}
+  .name-modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:14px;}
+
+  /* ---------- EDITOR SCREEN ---------- */
+  .app{display:flex;height:100vh;width:100vw;}
+
+  .rail{
+    width:56px;flex-shrink:0;background:var(--ink-950);
+    border-right:1px solid var(--ink-line);
+    display:flex;flex-direction:column;align-items:center;
+    padding:14px 0;gap:6px;z-index:20;
+  }
+  .rail-btn{
+    width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+    background:transparent;border:1px solid transparent;border-radius:9px;
+    color:var(--text-mid);cursor:pointer;
+    transition:background .15s, color .15s, border-color .15s;
+  }
+  .rail-btn:hover{background:var(--ink-800);color:var(--text-hi);}
+  .rail-btn:disabled{opacity:.3;cursor:default;}
+  .rail-btn:disabled:hover{background:transparent;color:var(--text-mid);}
+  .rail-btn svg{width:18px;height:18px;}
+  .rail-spacer{flex:1;}
+  .rail-divider{width:26px;height:1px;background:var(--ink-line);margin:6px 0;}
+
+  .viewer{flex:1;position:relative;background:var(--paper);display:flex;flex-direction:column;min-width:0;}
+  .viewer-top{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 22px;border-bottom:1px solid var(--paper-line);
+    background:var(--paper-dim);flex-shrink:0;
+  }
+  .doc-name{font-family:var(--mono);font-size:12px;color:var(--ink-on-paper);opacity:.6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+  .canvas-scroll{flex:1;overflow:auto;display:flex;align-items:flex-start;justify-content:center;padding:30px 20px 90px;}
+  #pdfCanvas{background:#fff;box-shadow:0 6px 24px rgba(0,0,0,.28), 0 1px 3px rgba(0,0,0,.15);max-width:100%;}
+
+  .nav-bar{
+    position:absolute;bottom:20px;left:50%;transform:translateX(-50%);
+    display:flex;align-items:center;gap:14px;
+    background:var(--ink-900);border:1px solid var(--ink-line);border-radius:12px;
+    padding:8px 10px;box-shadow:0 8px 24px rgba(0,0,0,.35);
+  }
+  .nav-bar button{
+    width:32px;height:32px;border-radius:8px;border:none;background:transparent;
+    color:var(--text-hi);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;
+  }
+  .nav-bar button:hover:not(:disabled){background:var(--ink-800);}
+  .nav-bar button:disabled{opacity:.3;cursor:default;}
+  .page-indicator{font-family:var(--mono);font-size:12px;color:var(--text-mid);min-width:64px;text-align:center;}
+
+  .grid-pane{flex:1;background:var(--ink-950);display:flex;flex-direction:column;min-width:0;}
+  .grid-header{display:flex;align-items:center;justify-content:space-between;padding:18px 26px;border-bottom:1px solid var(--ink-line);flex-shrink:0;}
+  .grid-header h2{font-family:var(--serif);font-style:italic;font-weight:500;font-size:22px;margin:0;color:var(--text-hi);}
+  .icon-close{background:transparent;border:1px solid var(--ink-line);color:var(--text-mid);border-radius:8px;width:34px;height:34px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+  .icon-close:hover{color:var(--text-hi);border-color:var(--text-mid);}
+  .thumb-grid{flex:1;overflow:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px;padding:24px;align-content:start;}
+  .thumb-card{cursor:pointer;border-radius:8px;overflow:hidden;background:var(--ink-900);border:1px solid var(--ink-line);transition:border-color .15s, transform .15s;position:relative;}
+  .thumb-card:hover{border-color:var(--teal);transform:translateY(-2px);}
+  .thumb-card.current{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal);}
+  .thumb-canvas-wrap{background:#fff;display:flex;align-items:center;justify-content:center;aspect-ratio:3/4;overflow:hidden;}
+  .thumb-canvas-wrap canvas{width:100%;display:block;}
+  .thumb-footer{display:flex;align-items:center;justify-content:space-between;padding:7px 10px;}
+  .thumb-page-num{font-family:var(--mono);font-size:11px;color:var(--text-mid);}
+  .thumb-note-dot{width:6px;height:6px;border-radius:50%;background:var(--amber);}
+  .thumb-loading{font-family:var(--mono);font-size:10px;color:var(--text-lo);}
+
+  .notes-pane{width:360px;flex-shrink:0;background:var(--ink-900);border-left:1px solid var(--ink-line);display:flex;flex-direction:column;min-height:0;z-index:10;}
+  .notes-pane-header{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid var(--ink-line);flex-shrink:0;gap:10px;}
+  .notes-pane-title{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-lo);}
+  .save-status{font-family:var(--mono);font-size:10px;color:var(--text-lo);letter-spacing:.05em;}
+  .save-status.saved{color:var(--teal);}
+  .unlock-btn{
+    display:flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--ink-line);
+    color:var(--text-mid);font-family:var(--sans);font-size:11.5px;font-weight:600;border-radius:20px;
+    padding:6px 12px 6px 9px;cursor:pointer;flex-shrink:0;transition:all .15s;
+  }
+  .unlock-btn svg{width:13px;height:13px;flex-shrink:0;}
+  .unlock-btn:hover{border-color:var(--text-mid);color:var(--text-hi);}
+  .unlock-btn.unlocked{border-color:var(--amber);color:var(--amber);background:rgba(214,162,76,.1);}
+  .unlock-btn:disabled{opacity:.35;cursor:default;}
+  .unlock-btn:disabled:hover{border-color:var(--ink-line);color:var(--text-mid);}
+
+  .notes-list{flex:1;overflow-y:auto;min-height:0;}
+  .note-block{padding:20px 20px 22px;border-bottom:1px solid var(--ink-line);transition:background .2s;}
+  .note-block.current{background:rgba(90,166,154,.07);}
+  .note-block-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:9px;}
+  .note-block-heading{
+    font-family:var(--serif);font-style:italic;font-weight:500;font-size:19px;line-height:1.2;
+    color:var(--text-hi);opacity:.22;letter-spacing:.2px;user-select:none;transition:opacity .2s;
+    flex:1;min-width:0;
+  }
+  .note-block.current .note-block-heading{opacity:.55;}
+  .jump-btn{
+    flex-shrink:0;width:26px;height:26px;border-radius:7px;background:transparent;
+    border:1px solid var(--ink-line);color:var(--text-mid);
+    display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .15s;
+  }
+  .jump-btn svg{width:13px;height:13px;}
+  .jump-btn:hover{color:var(--teal);border-color:var(--teal);}
+  .note-block-area{
+    width:100%;min-height:78px;resize:vertical;background:var(--ink-800);border:1px solid var(--ink-line);
+    border-radius:9px;color:var(--text-hi);font-family:var(--sans);font-size:13.5px;line-height:1.55;
+    padding:12px 13px;outline:none;
+  }
+  .note-block.current .note-block-area{border-color:var(--teal-dim);}
+  .note-block-area:focus{border-color:var(--teal-dim);}
+  .note-block-area::placeholder{color:var(--text-lo);}
+  .note-block-area:disabled{opacity:.42;cursor:not-allowed;resize:none;}
+
+  .summary-overlay{
+    position:fixed;inset:0;background:rgba(10,13,17,.72);backdrop-filter:blur(2px);
+    display:flex;align-items:center;justify-content:center;z-index:100;padding:40px;
+  }
+  .summary-panel{
+    width:100%;max-width:680px;max-height:100%;background:var(--ink-900);border:1px solid var(--ink-line);
+    border-radius:14px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.5);
+  }
+  .summary-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--ink-line);flex-shrink:0;}
+  .summary-header h2{font-family:var(--serif);font-style:italic;font-weight:500;font-size:22px;margin:0;}
+  .summary-actions{display:flex;gap:8px;}
+  .summary-content{flex:1;overflow:auto;padding:20px 24px 28px;}
+  .summary-block{padding:16px 0;border-bottom:1px solid var(--ink-line);}
+  .summary-block:last-child{border-bottom:none;}
+  .summary-block-label{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:6px;}
+  .summary-block-text{font-family:var(--sans);font-size:14px;line-height:1.6;color:var(--text-hi);white-space:pre-wrap;}
+  .summary-empty{font-family:var(--sans);font-size:14px;color:var(--text-lo);text-align:center;padding:40px 20px;line-height:1.6;}
+
+  @media (max-width: 900px){
+    .app{flex-direction:column;}
+    .rail{width:100%;height:52px;flex-direction:row;border-right:none;border-bottom:1px solid var(--ink-line);padding:0 12px;}
+    .rail-spacer{display:none;}
+    .rail-divider{width:1px;height:22px;margin:0 4px;}
+    .viewer{flex:1;min-height:0;}
+    .grid-pane{flex:1;min-height:0;}
+    .notes-pane{width:100%;height:220px;flex-shrink:0;border-left:none;border-top:1px solid var(--ink-line);}
+    .canvas-scroll{padding:16px 12px 70px;}
+    .folders-header{padding:14px 16px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- SCREEN: SIGN IN -->
+<div class="screen screen-signin" id="screenSignin">
+  <div class="signin-card">
+    <h1>Marginal</h1>
+    <p>Sign in with Google to keep your folders and edited PDFs saved in your own Drive — open them from any device.</p>
+    <button class="signin-btn" id="btnSignIn">
+      <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.7-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 8 3l6-6C34 5.1 29.3 3 24 3 12.4 3 3 12.4 3 24s9.4 21 21 21 21-9.4 21-21c0-1.4-.1-2.7-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.8 1.1 8 3l6-6C34 5.1 29.3 3 24 3c-7.7 0-14.3 4.3-17.7 10.7z"/><path fill="#4CAF50" d="M24 45c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 36.2 26.7 37 24 37c-5.3 0-9.7-3.3-11.3-8l-6.5 5C9.6 40.6 16.2 45 24 45z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4.1 5.6l6.2 5.2C40.9 35.6 45 30.3 45 24c0-1.4-.1-2.7-.4-3.5z"/></svg>
+      Sign in with Google
+    </button>
+    <p class="signin-note" id="signinNote"></p>
+    <div class="signin-config-warning" id="configWarning" hidden>
+      This app needs a Google Client ID before sign-in will work. Paste your Client ID into the CONFIG constant near the top of the script (see setup steps), then reload.
+    </div>
+  </div>
+</div>
+
+<!-- SCREEN: FOLDERS -->
+<div class="screen screen-folders" id="screenFolders" hidden>
+  <div class="folders-header">
+    <div class="breadcrumb" id="breadcrumb"></div>
+    <div class="folders-actions">
+      <button class="btn-ghost" id="btnNewFolder">+ Folder</button>
+      <button class="btn-solid" id="btnUploadPdf">+ Upload PDF</button>
+      <button class="btn-ghost" id="btnSignOut">Sign out</button>
+      <input type="file" id="driveFileInput" accept="application/pdf">
+    </div>
+  </div>
+  <div class="folders-grid" id="foldersGrid">
+    <div class="folders-loading">Loading…</div>
+  </div>
+</div>
+
+<!-- SCREEN: EDITOR -->
+<div class="screen" id="screenEditor" hidden>
+  <div class="app">
+    <aside class="rail">
+      <button class="rail-btn" id="btnBackToFolders" title="Back to folders">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+      </button>
+      <div class="rail-divider"></div>
+      <button class="rail-btn" id="btnGrid" title="Grid view" disabled>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      </button>
+      <button class="rail-btn" id="btnSummary" title="Summary" disabled>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+      </button>
+      <div class="rail-spacer"></div>
+      <button class="rail-btn" id="btnClear" title="Clear notes for this document" disabled>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
+      </button>
+    </aside>
+
+    <main class="viewer" id="viewerPane">
+      <div class="viewer-top">
+        <span class="doc-name" id="docName"></span>
+      </div>
+      <div class="canvas-scroll" id="canvasScroll">
+        <canvas id="pdfCanvas"></canvas>
+      </div>
+      <div class="nav-bar" id="navBar">
+        <button id="prevBtn" title="Previous page">‹</button>
+        <span class="page-indicator" id="pageIndicator">1 / 1</span>
+        <button id="nextBtn" title="Next page">›</button>
+      </div>
+    </main>
+
+    <div class="grid-pane" id="gridPane" hidden>
+      <div class="grid-header">
+        <h2>All slides</h2>
+        <button class="icon-close" id="closeGrid">✕</button>
+      </div>
+      <div class="thumb-grid" id="thumbGrid"></div>
+    </div>
+
+    <aside class="notes-pane" id="notesPane">
+      <div class="notes-pane-header">
+        <span class="notes-pane-title">Notes</span>
+        <span class="save-status" id="saveStatus"></span>
+        <button class="unlock-btn" id="btnUnlock" title="Unlock to edit notes on any slide" disabled>
+          <svg id="lockIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+          <span id="lockLabel">Locked</span>
+        </button>
+      </div>
+      <div class="notes-list" id="notesList"></div>
+    </aside>
+  </div>
+</div>
+
+<!-- SUMMARY OVERLAY -->
+<div class="summary-overlay" id="summaryOverlay" hidden>
+  <div class="summary-panel">
+    <div class="summary-header">
+      <h2>Summary</h2>
+      <div class="summary-actions">
+        <button class="btn-solid" id="exportBtn">Export .md</button>
+        <button class="btn-ghost" id="closeSummary">Close</button>
+      </div>
+    </div>
+    <div class="summary-content" id="summaryContent"></div>
+  </div>
+</div>
+
+<!-- NAME MODAL -->
+<div class="name-modal-overlay" id="nameModalOverlay" hidden>
+  <div class="name-modal">
+    <h3 id="nameModalTitle">New folder</h3>
+    <input type="text" id="nameModalInput" placeholder="Name">
+    <div class="name-modal-actions">
+      <button class="btn-ghost" id="nameModalCancel">Cancel</button>
+      <button class="btn-solid" id="nameModalConfirm">Create</button>
+    </div>
+  </div>
+</div>
+
+<!-- CONFIRM (DELETE) MODAL -->
+<div class="name-modal-overlay" id="confirmModalOverlay" hidden>
+  <div class="name-modal">
+    <h3 id="confirmModalTitle">Delete this?</h3>
+    <p id="confirmModalMessage" style="font-family:var(--sans);font-size:13.5px;color:var(--text-mid);line-height:1.5;margin:0 0 4px;"></p>
+    <div class="name-modal-actions">
+      <button class="btn-ghost" id="confirmModalCancel">Cancel</button>
+      <button class="btn-solid" id="confirmModalConfirm" style="background:#C0563E;border-color:#C0563E;">Delete</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ===================== CONFIG =====================
+// Paste your Google OAuth Client ID below (see setup steps you were given).
+// It looks like: '123456789-abc123xyz.apps.googleusercontent.com'
+const CONFIG = {
+  GOOGLE_CLIENT_ID: '923895753256-dipgrl5l9ccba0optdcqv2ds6e1a0g95.apps.googleusercontent.com',
+  DRIVE_SCOPE: 'https://www.googleapis.com/auth/drive.file',
+  ROOT_FOLDER_NAME: 'Marginal Notes'
+};
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+const state = {
+  accessToken: null,
+  tokenExpiry: 0,
+  rootFolderId: null,
+  folderStack: [],       // [{id, name}], last entry = current folder
+  pdfDoc: null,
+  numPages: 0,
+  currentPage: 1,
+  notes: {},
+  driveFileId: null,
+  driveParentId: null,
+  notesDriveFileId: null,
+  filename: '',
+  thumbCache: {},
+  saveTimer: null,
+  clearArmed: false,
+  unlocked: false
+};
+
+// ---- element refs ----
+const screenSignin = document.getElementById('screenSignin');
+const screenFolders = document.getElementById('screenFolders');
+const screenEditor = document.getElementById('screenEditor');
+const btnSignIn = document.getElementById('btnSignIn');
+const signinNote = document.getElementById('signinNote');
+const configWarning = document.getElementById('configWarning');
+
+const breadcrumb = document.getElementById('breadcrumb');
+const foldersGrid = document.getElementById('foldersGrid');
+const btnNewFolder = document.getElementById('btnNewFolder');
+const btnUploadPdf = document.getElementById('btnUploadPdf');
+const btnSignOut = document.getElementById('btnSignOut');
+const driveFileInput = document.getElementById('driveFileInput');
+
+const nameModalOverlay = document.getElementById('nameModalOverlay');
+const nameModalTitle = document.getElementById('nameModalTitle');
+const nameModalInput = document.getElementById('nameModalInput');
+const nameModalConfirm = document.getElementById('nameModalConfirm');
+const nameModalCancel = document.getElementById('nameModalCancel');
+
+const btnBackToFolders = document.getElementById('btnBackToFolders');
+const docName = document.getElementById('docName');
+const canvasScroll = document.getElementById('canvasScroll');
+const pdfCanvas = document.getElementById('pdfCanvas');
+const navBar = document.getElementById('navBar');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const pageIndicator = document.getElementById('pageIndicator');
+
+const btnGrid = document.getElementById('btnGrid');
+const btnSummary = document.getElementById('btnSummary');
+const btnClear = document.getElementById('btnClear');
+const gridPane = document.getElementById('gridPane');
+const thumbGrid = document.getElementById('thumbGrid');
+const closeGrid = document.getElementById('closeGrid');
+
+const notesList = document.getElementById('notesList');
+const btnUnlock = document.getElementById('btnUnlock');
+const lockIcon = document.getElementById('lockIcon');
+const lockLabel = document.getElementById('lockLabel');
+const saveStatus = document.getElementById('saveStatus');
+
+const summaryOverlay = document.getElementById('summaryOverlay');
+const summaryContent = document.getElementById('summaryContent');
+const closeSummary = document.getElementById('closeSummary');
+const exportBtn = document.getElementById('exportBtn');
+
+// ===================== SCREEN SWITCHING =====================
+function showScreen(name){
+  screenSignin.hidden = name !== 'signin';
+  screenFolders.hidden = name !== 'folders';
+  screenEditor.hidden = name !== 'editor';
+}
+
+// ===================== NAME MODAL (used for "new folder") =====================
+function askName(title, defaultVal){
+  return new Promise((resolve)=>{
+    nameModalTitle.textContent = title;
+    nameModalInput.value = defaultVal || '';
+    nameModalOverlay.hidden = false;
+    nameModalInput.focus();
+    function cleanup(val){
+      nameModalOverlay.hidden = true;
+      nameModalConfirm.removeEventListener('click', onConfirm);
+      nameModalCancel.removeEventListener('click', onCancel);
+      nameModalInput.removeEventListener('keydown', onKey);
+      resolve(val);
+    }
+    function onConfirm(){ cleanup(nameModalInput.value.trim() || null); }
+    function onCancel(){ cleanup(null); }
+    function onKey(e){ if(e.key === 'Enter') onConfirm(); if(e.key === 'Escape') onCancel(); }
+    nameModalConfirm.addEventListener('click', onConfirm);
+    nameModalCancel.addEventListener('click', onCancel);
+    nameModalInput.addEventListener('keydown', onKey);
+  });
+}
+
+// ===================== CONFIRM MODAL (used for delete) =====================
+const confirmModalOverlay = document.getElementById('confirmModalOverlay');
+const confirmModalTitle = document.getElementById('confirmModalTitle');
+const confirmModalMessage = document.getElementById('confirmModalMessage');
+const confirmModalConfirm = document.getElementById('confirmModalConfirm');
+const confirmModalCancel = document.getElementById('confirmModalCancel');
+
+function askConfirm(title, message){
+  return new Promise((resolve)=>{
+    confirmModalTitle.textContent = title;
+    confirmModalMessage.textContent = message || '';
+    confirmModalOverlay.hidden = false;
+    function cleanup(val){
+      confirmModalOverlay.hidden = true;
+      confirmModalConfirm.removeEventListener('click', onConfirm);
+      confirmModalCancel.removeEventListener('click', onCancel);
+      resolve(val);
+    }
+    function onConfirm(){ cleanup(true); }
+    function onCancel(){ cleanup(false); }
+    confirmModalConfirm.addEventListener('click', onConfirm);
+    confirmModalCancel.addEventListener('click', onCancel);
+  });
+}
+
+// ===================== GOOGLE SIGN-IN =====================
+let tokenClient = null;
+
+function initGoogle(){
+  tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: CONFIG.GOOGLE_CLIENT_ID,
+    scope: CONFIG.DRIVE_SCOPE,
+    callback: async (resp)=>{
+      if(resp.error){
+        signinNote.textContent = 'Sign-in failed: ' + resp.error;
+        return;
+      }
+      state.accessToken = resp.access_token;
+      state.tokenExpiry = Date.now() + (resp.expires_in * 1000);
+      await afterSignIn();
+    }
+  });
+}
+
+if(CONFIG.GOOGLE_CLIENT_ID.indexOf('PASTE_YOUR_CLIENT_ID_HERE') !== -1){
+  configWarning.hidden = false;
+  btnSignIn.disabled = true;
+}else{
+  waitForGoogleThenInit();
+}
+
+function waitForGoogleThenInit(attemptsLeft){
+  attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
+  if(typeof google !== 'undefined' && google.accounts && google.accounts.oauth2){
+    initGoogle();
+    return;
+  }
+  if(window.__gsiFailed || attemptsLeft <= 0){
+    signinNote.textContent = 'Google Sign-In could not load. If you have a content/ad blocker enabled for this site, allow accounts.google.com and reload.';
+    btnSignIn.disabled = true;
+    return;
+  }
+  setTimeout(()=> waitForGoogleThenInit(attemptsLeft - 1), 150);
+}
+
+btnSignIn.addEventListener('click', ()=>{
+  signinNote.textContent = 'Opening Google sign-in…';
+  tokenClient.requestAccessToken({ prompt: 'consent' });
+});
+
+btnSignOut.addEventListener('click', ()=>{
+  if(state.accessToken){
+    google.accounts.oauth2.revoke(state.accessToken, ()=>{});
+  }
+  state.accessToken = null;
+  state.folderStack = [];
+  signinNote.textContent = '';
+  showScreen('signin');
+});
+
+async function ensureToken(){
+  if(state.accessToken && Date.now() < state.tokenExpiry - 30000) return state.accessToken;
+  return new Promise((resolve, reject)=>{
+    tokenClient.callback = (resp)=>{
+      if(resp.error){ reject(new Error(resp.error)); return; }
+      state.accessToken = resp.access_token;
+      state.tokenExpiry = Date.now() + (resp.expires_in * 1000);
+      resolve(state.accessToken);
+    };
+    tokenClient.requestAccessToken({ prompt: '' });
+  });
+}
+
+async function driveFetch(url, options){
+  options = options || {};
+  const token = await ensureToken();
+  options.headers = Object.assign({}, options.headers, { Authorization: 'Bearer ' + token });
+  const res = await fetch(url, options);
+  if(!res.ok){
+    const text = await res.text().catch(()=> '');
+    throw new Error('Drive API error ' + res.status + ': ' + text);
+  }
+  return res;
+}
+
+// ===================== DRIVE FOLDER LOGIC =====================
+async function afterSignIn(){
+  signinNote.textContent = 'Setting up your Drive folder…';
+  try{
+    state.rootFolderId = await ensureRootFolder();
+  }catch(e){
+    signinNote.textContent = 'Could not reach Drive: ' + e.message;
+    return;
+  }
+  state.folderStack = [{ id: state.rootFolderId, name: CONFIG.ROOT_FOLDER_NAME }];
+  showScreen('folders');
+  await refreshFolderView();
+}
+
+async function ensureRootFolder(){
+  const q = encodeURIComponent(
+    "mimeType='application/vnd.google-apps.folder' and name='" + CONFIG.ROOT_FOLDER_NAME + "' and 'root' in parents and trashed=false"
+  );
+  const res = await driveFetch('https://www.googleapis.com/drive/v3/files?q=' + q + '&fields=files(id,name)');
+  const data = await res.json();
+  if(data.files && data.files.length) return data.files[0].id;
+
+  const createRes = await driveFetch('https://www.googleapis.com/drive/v3/files', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: CONFIG.ROOT_FOLDER_NAME, mimeType: 'application/vnd.google-apps.folder', parents: ['root'] })
+  });
+  const created = await createRes.json();
+  return created.id;
+}
+
+function currentFolderId(){ return state.folderStack[state.folderStack.length - 1].id; }
+
+async function listFolder(folderId){
+  const q = encodeURIComponent(
+    "'" + folderId + "' in parents and trashed=false and (mimeType='application/vnd.google-apps.folder' or mimeType='application/pdf')"
+  );
+  const res = await driveFetch('https://www.googleapis.com/drive/v3/files?q=' + q + '&orderBy=folder,name&fields=files(id,name,mimeType)');
+  const data = await res.json();
+  return data.files || [];
+}
+
+async function refreshFolderView(){
+  renderBreadcrumb();
+  foldersGrid.innerHTML = '<div class="folders-loading">Loading…</div>';
+  try{
+    const items = await listFolder(currentFolderId());
+    renderFolderGrid(items);
+  }catch(e){
+    foldersGrid.innerHTML = '<div class="folders-error">Could not load this folder: ' + e.message + '</div>';
+  }
+}
+
+function renderBreadcrumb(){
+  breadcrumb.innerHTML = '';
+  state.folderStack.forEach((f, idx)=>{
+    const btn = document.createElement('button');
+    btn.className = 'breadcrumb-item' + (idx === state.folderStack.length - 1 ? ' current' : '');
+    btn.textContent = f.name;
+    btn.addEventListener('click', async ()=>{
+      if(idx === state.folderStack.length - 1) return;
+      state.folderStack = state.folderStack.slice(0, idx + 1);
+      await refreshFolderView();
+    });
+    breadcrumb.appendChild(btn);
+    if(idx < state.folderStack.length - 1){
+      const sep = document.createElement('span');
+      sep.className = 'breadcrumb-sep';
+      sep.textContent = '/';
+      breadcrumb.appendChild(sep);
+    }
+  });
+}
+
+function renderFolderGrid(items){
+  foldersGrid.innerHTML = '';
+  if(items.length === 0){
+    foldersGrid.innerHTML = '<div class="folders-empty">Empty. Create a subfolder or upload a PDF to get started.</div>';
+    return;
+  }
+  items.forEach(item=>{
+    const isFolder = item.mimeType === 'application/vnd.google-apps.folder';
+    const card = document.createElement('div');
+    card.className = 'folder-card';
+
+    const icon = document.createElement('div');
+    icon.innerHTML = isFolder
+      ? '<svg class="folder-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>'
+      : '<svg class="folder-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M14 2v6h6"/></svg>';
+
+    const label = document.createElement('div');
+    label.className = 'folder-card-label';
+    label.textContent = item.name;
+
+    const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'folder-card-delete';
+    deleteBtn.title = 'Delete';
+    deleteBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>';
+    deleteBtn.addEventListener('click', async (e)=>{
+      e.stopPropagation();
+      await deleteItem(item, isFolder);
+    });
+
+    card.appendChild(icon);
+    card.appendChild(label);
+    card.appendChild(deleteBtn);
+    card.addEventListener('click', async ()=>{
+      if(isFolder){
+        state.folderStack.push({ id: item.id, name: item.name });
+        await refreshFolderView();
+      }else{
+        await openPdfFromDrive(item);
+      }
+    });
+    foldersGrid.appendChild(card);
+  });
+}
+
+async function deleteItem(item, isFolder){
+  const kind = isFolder ? 'folder' : 'PDF';
+  const message = isFolder
+    ? '"' + item.name + '" and everything inside it will be moved to your Drive trash.'
+    : '"' + item.name + '" and its notes will be moved to your Drive trash.';
+  const confirmed = await askConfirm('Delete this ' + kind + '?', message);
+  if(!confirmed) return;
+
+  try{
+    await driveFetch('https://www.googleapis.com/drive/v3/files/' + item.id, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ trashed: true })
+    });
+    if(!isFolder){
+      // best-effort cleanup of the sibling notes file; ignore failures
+      try{
+        const notesFile = await findNotesFile(item.id, currentFolderId());
+        if(notesFile){
+          await driveFetch('https://www.googleapis.com/drive/v3/files/' + notesFile.id, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ trashed: true })
+          });
+        }
+      }catch(e){ /* notes cleanup is best-effort */ }
+    }
+    await refreshFolderView();
+  }catch(e){
+    alert('Could not delete: ' + e.message);
+  }
+}
+
+btnNewFolder.addEventListener('click', async ()=>{
+  const name = await askName('New folder');
+  if(!name) return;
+  try{
+    await driveFetch('https://www.googleapis.com/drive/v3/files', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name, mimeType: 'application/vnd.google-apps.folder', parents: [currentFolderId()] })
+    });
+    await refreshFolderView();
+  }catch(e){
+    alert('Could not create folder: ' + e.message);
+  }
+});
+
+btnUploadPdf.addEventListener('click', ()=> driveFileInput.click());
+driveFileInput.addEventListener('change', async (e)=>{
+  const file = e.target.files[0];
+  driveFileInput.value = '';
+  if(!file) return;
+  await uploadPdfToCurrentFolder(file);
+});
+
+async function uploadPdfToCurrentFolder(file){
+  foldersGrid.innerHTML = '<div class="folders-loading">Uploading ' + file.name + '…</div>';
+  try{
+    const metadata = { name: file.name, parents: [currentFolderId()], mimeType: 'application/pdf' };
+    const form = new FormData();
+    form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+    form.append('file', file);
+    const token = await ensureToken();
+    const res = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,mimeType', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + token },
+      body: form
+    });
+    if(!res.ok) throw new Error('upload failed (' + res.status + ')');
+    const created = await res.json();
+    await openPdfFromDrive(created);
+  }catch(e){
+    alert('Could not upload PDF: ' + e.message);
+    await refreshFolderView();
+  }
+}
+
+// ===================== EDITOR: OPEN A DRIVE PDF =====================
+async function openPdfFromDrive(item){
+  showScreen('editor');
+  docName.textContent = item.name;
+  pageIndicator.textContent = '…';
+
+  state.driveFileId = item.id;
+  state.driveParentId = currentFolderId();
+  state.notesDriveFileId = null;
+  state.filename = item.name;
+
+  try{
+    const res = await driveFetch('https://www.googleapis.com/drive/v3/files/' + item.id + '?alt=media');
+    const buf = await res.arrayBuffer();
+    state.pdfDoc = await pdfjsLib.getDocument({ data: buf }).promise;
+  }catch(err){
+    alert('Could not open this PDF: ' + err.message);
+    showScreen('folders');
+    return;
+  }
+
+  state.numPages = state.pdfDoc.numPages;
+  state.thumbCache = {};
+  state.currentPage = 1;
+  state.notes = await loadNotesFromDrive(item.id, state.driveParentId);
+
+  btnGrid.disabled = false;
+  btnSummary.disabled = false;
+  btnClear.disabled = false;
+  btnUnlock.disabled = false;
+
+  await renderPage(1);
+}
+
+btnBackToFolders.addEventListener('click', async ()=>{
+  state.pdfDoc = null;
+  showScreen('folders');
+  await refreshFolderView();
+});
+
+// ===================== NOTES STORAGE (Drive-backed) =====================
+async function findNotesFile(pdfFileId, parentId){
+  const notesName = 'notes-' + pdfFileId + '.json';
+  const q = encodeURIComponent("name='" + notesName + "' and '" + parentId + "' in parents and trashed=false");
+  const res = await driveFetch('https://www.googleapis.com/drive/v3/files?q=' + q + '&fields=files(id,name)');
+  const data = await res.json();
+  return (data.files && data.files[0]) || null;
+}
+
+async function loadNotesFromDrive(pdfFileId, parentId){
+  try{
+    const existing = await findNotesFile(pdfFileId, parentId);
+    if(!existing) return {};
+    state.notesDriveFileId = existing.id;
+    const res = await driveFetch('https://www.googleapis.com/drive/v3/files/' + existing.id + '?alt=media');
+    const text = await res.text();
+    return text ? JSON.parse(text) : {};
+  }catch(e){
+    return {};
+  }
+}
+
+async function persistNotes(){
+  if(!state.driveFileId) return;
+  const payload = JSON.stringify(state.notes);
+  try{
+    if(state.notesDriveFileId){
+      await driveFetch('https://www.googleapis.com/upload/drive/v3/files/' + state.notesDriveFileId + '?uploadType=media', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload
+      });
+    }else{
+      const notesName = 'notes-' + state.driveFileId + '.json';
+      const metadata = { name: notesName, parents: [state.driveParentId], mimeType: 'application/json' };
+      const form = new FormData();
+      form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+      form.append('file', new Blob([payload], { type: 'application/json' }));
+      const token = await ensureToken();
+      const res = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id', {
+        method: 'POST',
+        headers: { Authorization: 'Bearer ' + token },
+        body: form
+      });
+      const created = await res.json();
+      state.notesDriveFileId = created.id;
+    }
+    saveStatus.textContent = 'Saved to Drive';
+    saveStatus.classList.add('saved');
+  }catch(e){
+    saveStatus.textContent = 'Save failed';
+    saveStatus.classList.remove('saved');
+  }
+}
+
+// ===================== PAGE RENDERING =====================
+async function renderPage(num){
+  const page = await state.pdfDoc.getPage(num);
+  const containerWidth = canvasScroll.clientWidth - 40;
+  const baseViewport = page.getViewport({ scale: 1 });
+  const scale = Math.min(containerWidth / baseViewport.width, 1.6);
+  const viewport = page.getViewport({ scale: Math.max(scale, 0.4) });
+
+  pdfCanvas.width = viewport.width;
+  pdfCanvas.height = viewport.height;
+  const ctx = pdfCanvas.getContext('2d');
+  await page.render({ canvasContext: ctx, viewport: viewport }).promise;
+
+  state.currentPage = num;
+  pageIndicator.textContent = num + ' / ' + state.numPages;
+  prevBtn.disabled = num <= 1;
+  nextBtn.disabled = num >= state.numPages;
+
+  buildNotesList({ scrollToCurrent: true });
+}
+
+prevBtn.addEventListener('click', ()=>{ if(state.currentPage > 1) renderPage(state.currentPage - 1); });
+nextBtn.addEventListener('click', ()=>{ if(state.currentPage < state.numPages) renderPage(state.currentPage + 1); });
+
+// ===================== NOTES LIST (filtered: content pages + current page) =====================
+function getVisiblePages(){
+  const pages = new Set();
+  for(let i = 1; i <= state.numPages; i++){
+    if(state.notes[i] && state.notes[i].trim()) pages.add(i);
+  }
+  pages.add(state.currentPage);
+  return Array.from(pages).sort((a,b)=>a-b);
+}
+
+function buildNotesList(opts){
+  opts = opts || {};
+  const prevScroll = notesList.scrollTop;
+  const pages = getVisiblePages();
+
+  notesList.innerHTML = '';
+  pages.forEach(i=>{
+    const block = document.createElement('div');
+    block.className = 'note-block';
+    block.dataset.page = i;
+
+    const top = document.createElement('div');
+    top.className = 'note-block-top';
+
+    const heading = document.createElement('div');
+    heading.className = 'note-block-heading';
+    heading.textContent = 'Slide ' + i + ' — Notes';
+
+    const jumpBtn = document.createElement('button');
+    jumpBtn.className = 'jump-btn';
+    jumpBtn.title = 'Go to slide ' + i;
+    jumpBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>';
+    jumpBtn.addEventListener('click', (e)=>{ e.stopPropagation(); renderPage(i); });
+
+    top.appendChild(heading);
+    top.appendChild(jumpBtn);
+
+    const area = document.createElement('textarea');
+    area.className = 'note-block-area';
+    area.placeholder = 'No notes for this slide yet';
+    area.value = state.notes[i] || '';
+    area.addEventListener('input', ()=>{
+      state.notes[i] = area.value;
+      saveStatus.textContent = 'Saving…';
+      saveStatus.classList.remove('saved');
+      clearTimeout(state.saveTimer);
+      state.saveTimer = setTimeout(persistNotes, 600);
+    });
+    area.addEventListener('blur', ()=> buildNotesList());
+
+    block.appendChild(top);
+    block.appendChild(area);
+    notesList.appendChild(block);
+  });
+
+  updateNoteBlockStates();
+
+  if(opts.scrollToCurrent){
+    scrollToCurrentBlock();
+  }else{
+    notesList.scrollTop = prevScroll;
+  }
+}
+
+function updateNoteBlockStates(){
+  const blocks = notesList.querySelectorAll('.note-block');
+  blocks.forEach(block=>{
+    const page = Number(block.dataset.page);
+    const area = block.querySelector('.note-block-area');
+    const isCurrent = page === state.currentPage;
+    block.classList.toggle('current', isCurrent);
+    area.disabled = !(isCurrent || state.unlocked);
+  });
+}
+
+function scrollToCurrentBlock(){
+  const block = notesList.querySelector('.note-block[data-page="' + state.currentPage + '"]');
+  if(block) block.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+btnUnlock.addEventListener('click', ()=>{
+  state.unlocked = !state.unlocked;
+  btnUnlock.classList.toggle('unlocked', state.unlocked);
+  lockLabel.textContent = state.unlocked ? 'Unlocked' : 'Locked';
+  lockIcon.innerHTML = state.unlocked
+    ? '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.6-1.8"/>'
+    : '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>';
+  updateNoteBlockStates();
+});
+
+// ===================== GRID VIEW =====================
+btnGrid.addEventListener('click', async ()=>{
+  await buildGrid();
+  gridPane.hidden = false;
+  document.getElementById('viewerPane').hidden = true;
+});
+closeGrid.addEventListener('click', ()=>{
+  gridPane.hidden = true;
+  document.getElementById('viewerPane').hidden = false;
+});
+
+async function buildGrid(){
+  thumbGrid.innerHTML = '';
+  for(let i = 1; i <= state.numPages; i++){
+    const card = document.createElement('div');
+    card.className = 'thumb-card' + (i === state.currentPage ? ' current' : '');
+    card.dataset.page = i;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'thumb-canvas-wrap';
+    wrap.innerHTML = '<span class="thumb-loading">Loading…</span>';
+    card.appendChild(wrap);
+
+    const footer = document.createElement('div');
+    footer.className = 'thumb-footer';
+    const label = document.createElement('span');
+    label.className = 'thumb-page-num';
+    label.textContent = String(i).padStart(2, '0');
+    footer.appendChild(label);
+    if(state.notes[i] && state.notes[i].trim()){
+      const dot = document.createElement('span');
+      dot.className = 'thumb-note-dot';
+      footer.appendChild(dot);
+    }
+    card.appendChild(footer);
+
+    card.addEventListener('click', async ()=>{
+      gridPane.hidden = true;
+      document.getElementById('viewerPane').hidden = false;
+      await renderPage(i);
+    });
+
+    thumbGrid.appendChild(card);
+    renderThumb(i, wrap);
+  }
+}
+
+async function renderThumb(num, wrapEl){
+  if(state.thumbCache[num]){
+    wrapEl.innerHTML = '';
+    wrapEl.appendChild(state.thumbCache[num]);
+    return;
+  }
+  const page = await state.pdfDoc.getPage(num);
+  const viewport = page.getViewport({ scale: 0.35 });
+  const c = document.createElement('canvas');
+  c.width = viewport.width;
+  c.height = viewport.height;
+  await page.render({ canvasContext: c.getContext('2d'), viewport: viewport }).promise;
+  state.thumbCache[num] = c;
+  wrapEl.innerHTML = '';
+  wrapEl.appendChild(c);
+}
+
+// ===================== SUMMARY =====================
+btnSummary.addEventListener('click', ()=>{
+  const pages = Object.keys(state.notes).map(Number)
+    .filter(p => state.notes[p] && state.notes[p].trim())
+    .sort((a,b)=>a-b);
+
+  summaryContent.innerHTML = '';
+  if(pages.length === 0){
+    summaryContent.innerHTML = '<div class="summary-empty">No notes yet. Page through the deck and jot something down — your summary builds itself from there.</div>';
+  }else{
+    pages.forEach(p=>{
+      const block = document.createElement('div');
+      block.className = 'summary-block';
+      const label = document.createElement('div');
+      label.className = 'summary-block-label';
+      label.textContent = 'Slide ' + p;
+      const text = document.createElement('div');
+      text.className = 'summary-block-text';
+      text.textContent = state.notes[p];
+      block.appendChild(label);
+      block.appendChild(text);
+      summaryContent.appendChild(block);
+    });
+  }
+  summaryOverlay.hidden = false;
+});
+closeSummary.addEventListener('click', ()=> summaryOverlay.hidden = true);
+summaryOverlay.addEventListener('click', (e)=>{ if(e.target === summaryOverlay) summaryOverlay.hidden = true; });
+
+exportBtn.addEventListener('click', ()=>{
+  const pages = Object.keys(state.notes).map(Number)
+    .filter(p => state.notes[p] && state.notes[p].trim())
+    .sort((a,b)=>a-b);
+
+  let md = '# ' + (state.filename || 'Notes') + '\n\n';
+  pages.forEach(p=>{ md += '## Slide ' + p + '\n\n' + state.notes[p].trim() + '\n\n'; });
+  if(pages.length === 0) md += '_No notes yet._\n';
+
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = (state.filename ? state.filename.replace(/\.pdf$/i,'') : 'notes') + '-summary.md';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+});
+
+// ===================== CLEAR NOTES (two-step confirm) =====================
+btnClear.addEventListener('click', ()=>{
+  if(!state.clearArmed){
+    state.clearArmed = true;
+    btnClear.style.color = '#E8896B';
+    btnClear.title = 'Click again to confirm';
+    setTimeout(()=>{
+      state.clearArmed = false;
+      btnClear.style.color = '';
+      btnClear.title = 'Clear notes for this document';
+    }, 2800);
+    return;
+  }
+  state.clearArmed = false;
+  state.notes = {};
+  persistNotes();
+  buildNotesList({ scrollToCurrent: true });
+  btnClear.style.color = '';
+  btnClear.title = 'Clear notes for this document';
+});
+
+window.addEventListener('resize', ()=>{
+  if(state.pdfDoc) renderPage(state.currentPage);
+});
+</script>
+</body>
+</html>
